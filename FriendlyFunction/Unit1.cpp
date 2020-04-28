@@ -89,6 +89,8 @@ TMyCharString::TMyCharString(char* str)
 
 TMyCharString::TMyCharString(char* str, int newSize)
 {
+	// Вот сдесь я якобы внес изменения для Git
+	int a = 0;
 	cout << "sizeChar: " << newSize << "\n";
 	setSize(newSize);
 	for (int i = 0; i < newSize; i++) {
